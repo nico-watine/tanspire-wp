@@ -7,6 +7,10 @@ Template: Avada
 Version: 1.0.0
 Text Domain:  Avada
 */
+a.hover-underline:hover {
+  text-decoration: underline !important;
+}
+
 .fusion-button.button-flat.button-shadow {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.3) !important;
 }
