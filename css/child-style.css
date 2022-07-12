@@ -21,14 +21,14 @@ Text Domain:  Avada
 }
 .table-2 table thead {
   background-color: #fff !important;
-  border-color: #ADCEDB !important;
+  border-color: #adcedb !important;
 }
 .table-2 table thead th {
-  border: 3px solid #ADCEDB !important;
+  border: 3px solid #adcedb !important;
   padding: 8px 10px !important;
   font-size: 22px !important;
 }
 .table-2 table tr td {
-  border: 3px solid #ADCEDB !important;
+  border: 3px solid #adcedb !important;
   padding: 8px 10px !important;
 }

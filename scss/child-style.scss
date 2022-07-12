@@ -8,6 +8,8 @@ Version: 1.0.0
 Text Domain:  Avada
 */
 
+@import '_var.scss';
+
 .background-img-contain,
 .background-img-contain * {
 	background-size: contain !important;
@@ -24,10 +26,10 @@ Text Domain:  Avada
 
 		thead {
 			background-color: #fff !important;
-			border-color: #ADCEDB !important;
+			border-color: #adcedb !important;
 
 			th {
-				border: 3px solid #ADCEDB !important;
+				border: 3px solid #adcedb !important;
 				padding: 8px 10px !important;
 				font-size: 22px !important;
 			}
@@ -35,7 +37,7 @@ Text Domain:  Avada
 
 		tr {
 			td {
-				border: 3px solid #ADCEDB !important;
+				border: 3px solid #adcedb !important;
 				padding: 8px 10px !important;
 			}
 		}
