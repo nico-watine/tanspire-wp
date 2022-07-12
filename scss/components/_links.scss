@@ -1,4 +1,5 @@
-a.hover-underline {
+.hover-underline,
+.hover-underline * {
 	&:hover {
 		text-decoration: underline !important;
 	}

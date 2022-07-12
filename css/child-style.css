@@ -7,7 +7,8 @@ Template: Avada
 Version: 1.0.0
 Text Domain:  Avada
 */
-a.hover-underline:hover {
+.hover-underline:hover,
+.hover-underline *:hover {
   text-decoration: underline !important;
 }
 
@@ -49,4 +50,8 @@ a.button-shadow:hover {
 .table-2 table tr td {
   border: 3px solid #adcedb !important;
   padding: 8px 10px !important;
+}
+
+.widget .fusion-social-networks .fusion-social-network-icon {
+  margin: 0 14px 14px !important;
 }
