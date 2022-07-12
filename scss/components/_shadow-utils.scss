@@ -1,0 +1,35 @@
+.fusion-button.button-flat.button-shadow {
+	box-shadow: $z-2 !important;
+
+	&:hover {
+		box-shadow: $z-1 !important;
+	}
+}
+
+a.button-shadow {
+	box-shadow: $z-2 !important;
+
+	&:hover {
+		box-shadow: $z-1 !important;
+	}
+}
+
+// a {
+// 	background: #fff;
+// 	border: rem-calc(2) solid #88c4dc;
+// 	box-shadow: $z-2;
+// 	letter-spacing: rem-calc(1.5);
+// 	width: rem-calc(140);
+// 	padding: rem-calc(16) 0;
+// 	border-radius: rem-calc(5);
+// 	color: #88c4dc;
+// 	font-size: rem-calc(18);
+// 	margin-bottom: rem-calc(28);
+
+// 	&:hover {
+// 		background: #a2d0e3;
+// 		box-shadow: $z-1;
+// 		color: #fff;
+// 		border: rem-calc(2) solid #fff;
+// 	}
+// }
