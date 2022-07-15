@@ -4,6 +4,7 @@ a.splash-button {
 
 .glow-solution-bounding-box {
   max-width: 440px;
+  margin: 0 auto;
 }
 
 .glow-solution-beneficial-attributes {
@@ -12,6 +13,7 @@ a.splash-button {
   border-radius: 4px;
   background: #fff;
   max-width: 440px;
+  margin: 0 auto;
 }
 .glow-solution-beneficial-attributes ul {
   margin: 0;
@@ -20,4 +22,39 @@ a.splash-button {
 
 .black-text-shadow * {
   text-shadow: 0 3px 3px #000;
+}
+
+#accordion-10-1 .fusion-panel {
+  border: none !important;
+  border-radius: 4px !important;
+}
+
+.fusion-accordian #accordion-10-1 .panel-62a3cec40489f3688 .toggle-content {
+  border: 2px solid #e6e6e6 !important;
+  background: #fefefe !important;
+}
+
+.fusion-accordian #accordion-10-1 .panel-title a {
+  font-size: 18px !important;
+  text-decoration: underline !important;
+  border: 2px solid #95c3d6 !important;
+  border-radius: 4px !important;
+}
+.fusion-accordian #accordion-10-1 .panel-title a.active, .fusion-accordian #accordion-10-1 .panel-title a:hover {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37) !important;
+}
+
+.modal-dialog .modal-lg,
+.modal-dialog .modal-lg .modal-content {
+  border-radius: 12px !important;
+}
+
+.fusion-modal .modal-dialog,
+.modal-content {
+  border-radius: 12px !important;
+}
+
+.modal-1 .modal-header,
+.modal-1 .modal-footer {
+  border: none !important;
 }

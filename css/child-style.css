@@ -4,7 +4,7 @@ Description: Child theme for Avada theme
 Author: ThemeFusion
 Author URI: https://theme-fusion.com
 Template: Avada
-Version: 1.0.0
+Version: 1.0.2
 Text Domain:  Avada
 */
 .hover-underline:hover,
@@ -24,6 +24,26 @@ a.button-shadow {
 }
 a.button-shadow:hover {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37) !important;
+}
+
+.box-shadow-1 {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+}
+
+.box-shadow-2 {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.box-shadow-3 {
+  box-shadow: 0 11px 7px 0 rgba(0, 0, 0, 0.19), 0 13px 25px 0 rgba(0, 0, 0, 0.3);
+}
+
+.box-shadow-4 {
+  box-shadow: 0 14px 12px 0 rgba(0, 0, 0, 0.17), 0 20px 40px 0 rgba(0, 0, 0, 0.3);
+}
+
+.box-shadow-5 {
+  box-shadow: 0 17px 17px 0 rgba(0, 0, 0, 0.15), 0 27px 55px 0 rgba(0, 0, 0, 0.3);
 }
 
 .background-img-contain,
@@ -46,10 +66,12 @@ a.button-shadow:hover {
   border: 3px solid #adcedb !important;
   padding: 8px 10px !important;
   font-size: 22px !important;
+  white-space: normal !important;
 }
 .table-2 table tr td {
   border: 3px solid #adcedb !important;
   padding: 8px 10px !important;
+  white-space: normal !important;
 }
 
 .widget .fusion-social-networks .fusion-social-network-icon {
