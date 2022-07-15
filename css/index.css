@@ -1,3 +1,7 @@
+.index-splash {
+  min-height: 610px !important;
+}
+
 a.splash-button {
   width: 176px;
 }
