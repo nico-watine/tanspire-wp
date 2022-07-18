@@ -2,7 +2,7 @@
   font-weight: normal;
   display: inline-block;
   color: #000;
-  text-shadow: none;
+  text-shadow: 0 0.0625rem 0.125rem #fff;
   font-size: 41px;
   text-transform: none;
 }
@@ -13,6 +13,12 @@
   text-transform: uppercase;
   display: block;
   font-size: 64px;
+}
+.page-splash-large .page-title.small h1 {
+  font-size: 32px;
+}
+.page-splash-large .page-title.small h1 span.heading {
+  font-size: 41px;
 }
 
 .faq-toggles.fusion-accordian #accordion-155-1 .panel-title a {
@@ -26,6 +32,11 @@
   border: 2px solid #fff;
   border-radius: 6px;
 }
+@media only screen and (max-width : 540px) {
+  .faq-toggles.fusion-accordian #accordion-155-1 .panel-title a {
+    font-size: 24px !important;
+  }
+}
 .faq-toggles.fusion-accordian #accordion-155-1 .panel-title a:hover {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.3) !important;
   background: #b4dff1;
@@ -33,6 +44,9 @@
 .faq-toggles.fusion-accordian #accordion-155-1 .panel-title a.active {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37) !important;
   background: #b4dff1;
+}
+.faq-toggles.fusion-accordian #accordion-155-1 .panel-title .fusion-toggle-heading {
+  margin-right: 0 !important;
 }
 .faq-toggles.fusion-accordian #accordion-155-1 .fusion-panel {
   border-radius: 6px !important;

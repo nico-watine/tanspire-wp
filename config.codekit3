@@ -66,6 +66,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/css\/faq.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/faq-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/index.css" : {
       "aP" : 1,
       "bl" : 0,

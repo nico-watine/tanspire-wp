@@ -1,3 +1,5 @@
+$maxWidth-540px: 'only screen and (max-width : 540px)';
+
 @import '_var.scss';
 
 .page-splash-large {
@@ -15,9 +17,19 @@
 			font-weight: normal;
 			display: inline-block;
 			color: #000;
-			text-shadow: none;
+			text-shadow: 0 .0625rem .125rem #fff;
 			font-size: 41px;
 			text-transform: none;
+		}
+	}
+
+	.page-title.small {
+		h1 {
+			span.heading {
+				font-size: 41px;
+			}
+
+			font-size: 32px;
 		}
 	}
 }
@@ -35,6 +47,10 @@
 			border: 2px solid #fff;
 			border-radius: 6px;
 
+			@media #{$maxWidth-540px} {
+				font-size: 24px !important;
+			}
+
 			&:hover {
 				box-shadow: $z-2 !important;
 				background: #b4dff1;
@@ -44,6 +60,10 @@
 		a.active {
 			box-shadow: $z-1 !important;
 			background: #b4dff1;
+		}
+
+		.fusion-toggle-heading {
+			margin-right: 0 !important;
 		}
 	}
 
