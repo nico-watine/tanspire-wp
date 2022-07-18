@@ -1,1 +1,43 @@
+.page-splash-large .page-title h1 {
+  font-weight: normal;
+  display: inline-block;
+  color: #000;
+  text-shadow: none;
+  font-size: 41px;
+  text-transform: none;
+}
+.page-splash-large .page-title h1 span.heading {
+  color: #fff;
+  text-shadow: 0 0.125rem 0.25rem #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+  font-size: 64px;
+}
 
+.faq-toggles.fusion-accordian #accordion-155-1 .panel-title a {
+  font-size: 35px;
+  line-height: 1;
+  color: #fff !important;
+  text-shadow: 0 1px 1px #000;
+  background: #95c3d6;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  border-radius: 6px;
+}
+.faq-toggles.fusion-accordian #accordion-155-1 .panel-title a:hover {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.3) !important;
+  background: #b4dff1;
+}
+.faq-toggles.fusion-accordian #accordion-155-1 .panel-title a.active {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37) !important;
+  background: #b4dff1;
+}
+.faq-toggles.fusion-accordian #accordion-155-1 .fusion-panel {
+  border-radius: 6px !important;
+  box-shadow: inset 0 0.0625rem 0.25rem 0 rgba(0, 0, 0, 0.37) !important;
+}
+.faq-toggles.fusion-accordian #accordion-155-1 .fusion-panel .panel-body {
+  padding-top: 20px !important;
+}

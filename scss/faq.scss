@@ -1,0 +1,58 @@
+@import '_var.scss';
+
+.page-splash-large {
+	.page-title {
+		h1 {
+			span.heading {
+				color: #fff;
+				text-shadow: 0 .125rem .25rem #000;
+				font-weight: bold;
+				text-transform: uppercase;
+				display: block;
+				font-size: 64px;
+			}
+
+			font-weight: normal;
+			display: inline-block;
+			color: #000;
+			text-shadow: none;
+			font-size: 41px;
+			text-transform: none;
+		}
+	}
+}
+
+.faq-toggles.fusion-accordian #accordion-155-1 {
+	.panel-title {
+		a {
+			font-size: 35px;
+			line-height: 1;
+			color: #fff !important;
+			text-shadow: 0 1px 1px #000;
+			background: #95c3d6;
+			text-align: center;
+			text-transform: uppercase;
+			border: 2px solid #fff;
+			border-radius: 6px;
+
+			&:hover {
+				box-shadow: $z-2 !important;
+				background: #b4dff1;
+			}
+		}
+
+		a.active {
+			box-shadow: $z-1 !important;
+			background: #b4dff1;
+		}
+	}
+
+	.fusion-panel {
+		border-radius: 6px !important;
+		box-shadow: inset 0 .0625rem .25rem 0 rgb(0 0 0 / 37%) !important;
+
+		.panel-body {
+			padding-top: 20px !important;
+		}
+	}
+}
