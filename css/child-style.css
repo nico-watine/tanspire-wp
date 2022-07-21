@@ -4,7 +4,7 @@ Description: Child theme for Avada theme
 Author: ThemeFusion
 Author URI: https://theme-fusion.com
 Template: Avada
-Version: 1.0.2
+Version: 1.0.5
 Text Domain:  Avada
 */
 .hover-underline:hover,
@@ -75,5 +75,5 @@ a.button-shadow:hover {
 }
 
 .widget .fusion-social-networks .fusion-social-network-icon {
-  margin: 0 14px 14px !important;
+  margin: 14px !important;
 }
