@@ -1,2 +1,24 @@
 Styling:
-  ☐ box-shadow for buttons, including :hover
+  ✔ box-shadow for buttons, including :hover @done (22-07-21 18:29)
+
+
+Next:
+	☐	<header> main nav :hover & :active styles (white text-shadow??)
+	☐	<header> drop-shadow to match original
+	☐	Increase blog side-bar nav font-size
+
+AWS:
+	☐	set up new AWS container
+	☐	zip local site
+	☐	upload zip
+	☐	iron out upload kinks
+	☐	Done??
+
+Index:
+	☐	Blog link
+	☐	blog permalink structure
+	☐	change "services" button (since is just anchor scroll) to "book" button
+
+
+Nice-to-have:
+	☐	improve splash graphics placement
